@@ -1,0 +1,7 @@
+*.class
+*.log
+*.tmp
+*.lock
+Thumbs.db
+.idea\workspase.xml
+testFile.txt
