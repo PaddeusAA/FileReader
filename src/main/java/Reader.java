@@ -15,16 +15,10 @@ public class Reader {
         action = in.nextInt();
 
         switch (action) {
-            case 1:
-                fileTextOutput();
-                break;
-
-            case 2:
-                fileTextInput();
-                break;
-
-            default:
-                break;
+            case 1 -> fileTextOutput();
+            case 2 -> fileTextInput();
+            default -> {
+            }
         }
     }
 
